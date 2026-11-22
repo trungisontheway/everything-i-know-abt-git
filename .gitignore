@@ -1,0 +1,18 @@
+# dbt
+target/
+dbt_packages/
+logs/
+profiles.yml
+
+# Python
+.venv/
+__pycache__/
+.env
+
+# Power BI project
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Data and secrets
+*.csv
+*.json.key
